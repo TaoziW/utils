@@ -10,7 +10,7 @@ public class TestController {
 
     @RequestMapping(value = "/getString", method = RequestMethod.GET)
     public String getString(){
-        System.out.println("打印日志！");
+
         return "接口测试数据";
     }
 
